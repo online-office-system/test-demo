@@ -1,0 +1,291 @@
+2023-04-25 19:51:33.880  INFO 11492 --- [main] c.javaee.onlineapi.DemoTestApplication   : Starting DemoTestApplication using Java 1.8.0_341 on zchhhhh with PID 11492 (C:\Users\20698\Desktop\test\demo-test\target\classes started by 20698 in C:\Users\20698\Desktop\test\demo-test)
+2023-04-25 19:51:33.883  INFO 11492 --- [main] c.javaee.onlineapi.DemoTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-25 19:51:34.291  INFO 11492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-25 19:51:34.293  INFO 11492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-25 19:51:34.307  INFO 11492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-25 19:51:34.586  INFO 11492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-25 19:51:34.591  INFO 11492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25 19:51:34.592  INFO 11492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-25 19:51:34.685  INFO 11492 --- [main] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring embedded WebApplicationContext
+2023-04-25 19:51:34.685  INFO 11492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 775 ms
+2023-04-25 19:51:35.124  WARN 11492 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: bbae7525-fc2b-4a78-8c9e-20125a777a71
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-04-25 19:51:35.192  INFO 11492 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6415f61e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@334ebcaa, org.springframework.security.web.context.SecurityContextPersistenceFilter@288f173f, org.springframework.security.web.header.HeaderWriterFilter@59b65dce, org.springframework.security.web.csrf.CsrfFilter@5a02bfe3, org.springframework.security.web.authentication.logout.LogoutFilter@5f95f1e1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@32fa809f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2538bc06, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5a0bef24, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@708f018e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45cd7bc5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35e26d05, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6468a7b6, org.springframework.security.web.session.SessionManagementFilter@5e922647, org.springframework.security.web.access.ExceptionTranslationFilter@58a2b917, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a0c5e9]
+2023-04-25 19:51:35.231  INFO 11492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ofs-api'
+2023-04-25 19:51:35.238  INFO 11492 --- [main] c.javaee.onlineapi.DemoTestApplication   : Started DemoTestApplication in 1.664 seconds (JVM running for 2.537)
+2023-04-25 19:51:51.615  INFO 11492 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-25 19:51:51.616  INFO 11492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-25 19:51:51.617  INFO 11492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-25 19:52:31.267  INFO 16872 --- [main] c.javaee.onlineapi.DemoTestApplication   : Starting DemoTestApplication using Java 1.8.0_341 on zchhhhh with PID 16872 (C:\Users\20698\Desktop\test\demo-test\target\classes started by 20698 in C:\Users\20698\Desktop\test\demo-test)
+2023-04-25 19:52:31.269  INFO 16872 --- [main] c.javaee.onlineapi.DemoTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-25 19:52:31.640  INFO 16872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-25 19:52:31.642  INFO 16872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-25 19:52:31.655  INFO 16872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-25 19:52:31.926  INFO 16872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-25 19:52:31.931  INFO 16872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25 19:52:31.931  INFO 16872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-25 19:52:32.021  INFO 16872 --- [main] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring embedded WebApplicationContext
+2023-04-25 19:52:32.021  INFO 16872 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 724 ms
+2023-04-25 19:52:32.474  INFO 16872 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5b275811, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f0ed952, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e09c51, org.springframework.security.web.header.HeaderWriterFilter@4c447c09, org.springframework.security.web.csrf.CsrfFilter@6015a4a5, org.springframework.security.web.authentication.logout.LogoutFilter@194d329e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2121d1f9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@120d3fd, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6f044c58, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2f9a4401, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f3166a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31e76a8d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d074b14, org.springframework.security.web.session.SessionManagementFilter@596a7f44, org.springframework.security.web.access.ExceptionTranslationFilter@14998e21, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@107bfcb2]
+2023-04-25 19:52:32.513  INFO 16872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ofs-api'
+2023-04-25 19:52:32.521  INFO 16872 --- [main] c.javaee.onlineapi.DemoTestApplication   : Started DemoTestApplication in 1.506 seconds (JVM running for 2.287)
+2023-04-25 19:52:36.479  INFO 16872 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-25 19:52:36.479  INFO 16872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-25 19:52:36.480  INFO 16872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-25 19:55:49.421  INFO 2352 --- [main] c.javaee.onlineapi.DemoTestApplication   : Starting DemoTestApplication using Java 1.8.0_341 on zchhhhh with PID 2352 (C:\Users\20698\Desktop\test\demo-test\target\classes started by 20698 in C:\Users\20698\Desktop\test\demo-test)
+2023-04-25 19:55:49.423  INFO 2352 --- [main] c.javaee.onlineapi.DemoTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-25 19:55:49.793  INFO 2352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-25 19:55:49.794  INFO 2352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-25 19:55:49.806  INFO 2352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-04-25 19:55:50.047  INFO 2352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-25 19:55:50.053  INFO 2352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25 19:55:50.053  INFO 2352 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-25 19:55:50.141  INFO 2352 --- [main] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring embedded WebApplicationContext
+2023-04-25 19:55:50.142  INFO 2352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 693 ms
+2023-04-25 19:55:50.538  INFO 2352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ofs-api'
+2023-04-25 19:55:50.544  INFO 2352 --- [main] c.javaee.onlineapi.DemoTestApplication   : Started DemoTestApplication in 1.372 seconds (JVM running for 2.173)
+2023-04-25 19:55:58.040  INFO 2352 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-25 19:55:58.041  INFO 2352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-25 19:55:58.041  INFO 2352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-25 20:01:05.927  INFO 7400 --- [main] c.javaee.onlineapi.DemoTestApplication   : Starting DemoTestApplication using Java 1.8.0_341 on zchhhhh with PID 7400 (C:\Users\20698\Desktop\test\demo-test\target\classes started by 20698 in C:\Users\20698\Desktop\test\demo-test)
+2023-04-25 20:01:05.930  INFO 7400 --- [main] c.javaee.onlineapi.DemoTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-25 20:01:06.308  INFO 7400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-25 20:01:06.309  INFO 7400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-25 20:01:06.322  INFO 7400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-25 20:01:06.566  INFO 7400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-25 20:01:06.571  INFO 7400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25 20:01:06.572  INFO 7400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-25 20:01:06.662  INFO 7400 --- [main] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring embedded WebApplicationContext
+2023-04-25 20:01:06.662  INFO 7400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 703 ms
+2023-04-25 20:01:07.097  INFO 7400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ofs-api'
+2023-04-25 20:01:07.103  INFO 7400 --- [main] c.javaee.onlineapi.DemoTestApplication   : Started DemoTestApplication in 1.437 seconds (JVM running for 2.19)
+2023-04-25 20:01:14.029  INFO 7400 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-25 20:01:14.029  INFO 7400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-25 20:01:14.030  INFO 7400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-25 20:01:30.044  WARN 7400 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler cdu.javaee.onlineapi.handler.CommonExceptionHandler#jsonErrorHandler(JsonException)
+
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:315)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1332)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1143)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-04-25 22:53:53.291  INFO 17552 --- [main] c.javaee.onlineapi.DemoTestApplication   : Starting DemoTestApplication using Java 1.8.0_341 on zchhhhh with PID 17552 (C:\Users\20698\Desktop\test\demo-test\target\classes started by 20698 in C:\Users\20698\Desktop\test\demo-test)
+2023-04-25 22:53:53.293  INFO 17552 --- [main] c.javaee.onlineapi.DemoTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-25 22:53:53.769  INFO 17552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-25 22:53:53.771  INFO 17552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-25 22:53:53.789  INFO 17552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-04-25 22:53:54.091  INFO 17552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-25 22:53:54.100  INFO 17552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25 22:53:54.100  INFO 17552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-25 22:53:54.227  INFO 17552 --- [main] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring embedded WebApplicationContext
+2023-04-25 22:53:54.228  INFO 17552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 902 ms
+2023-04-25 22:53:54.736  INFO 17552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ofs-api'
+2023-04-25 22:53:54.743  INFO 17552 --- [main] c.javaee.onlineapi.DemoTestApplication   : Started DemoTestApplication in 1.73 seconds (JVM running for 2.61)
+2023-04-25 22:54:06.604  INFO 17552 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-25 22:54:06.605  INFO 17552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-25 22:54:06.606  INFO 17552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-25 22:54:19.848  WARN 17552 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler cdu.javaee.onlineapi.handler.CommonExceptionHandler#jsonErrorHandler(JsonException)
+
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:315)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1332)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1143)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-04-25 22:55:16.989  INFO 8504 --- [main] c.javaee.onlineapi.DemoTestApplication   : Starting DemoTestApplication using Java 1.8.0_341 on zchhhhh with PID 8504 (C:\Users\20698\Desktop\test\demo-test\target\classes started by 20698 in C:\Users\20698\Desktop\test\demo-test)
+2023-04-25 22:55:16.990  INFO 8504 --- [main] c.javaee.onlineapi.DemoTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-25 22:55:17.361  INFO 8504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-25 22:55:17.362  INFO 8504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-25 22:55:17.375  INFO 8504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-25 22:55:17.614  INFO 8504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-25 22:55:17.619  INFO 8504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25 22:55:17.620  INFO 8504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-25 22:55:17.708  INFO 8504 --- [main] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring embedded WebApplicationContext
+2023-04-25 22:55:17.708  INFO 8504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 687 ms
+2023-04-25 22:55:18.121  INFO 8504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ofs-api'
+2023-04-25 22:55:18.128  INFO 8504 --- [main] c.javaee.onlineapi.DemoTestApplication   : Started DemoTestApplication in 1.386 seconds (JVM running for 2.125)
+2023-04-25 22:55:21.349  INFO 8504 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-25 22:55:21.349  INFO 8504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-25 22:55:21.350  INFO 8504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-25 22:55:21.393  WARN 8504 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler cdu.javaee.onlineapi.handler.CommonExceptionHandler#jsonErrorHandler(JsonException)
+
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:315)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1332)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1143)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-04-25 23:03:58.496  INFO 12416 --- [main] c.javaee.onlineapi.DemoTestApplication   : Starting DemoTestApplication using Java 1.8.0_341 on zchhhhh with PID 12416 (C:\Users\20698\Desktop\test\demo-test\target\classes started by 20698 in C:\Users\20698\Desktop\test\demo-test)
+2023-04-25 23:03:58.498  INFO 12416 --- [main] c.javaee.onlineapi.DemoTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-25 23:03:58.884  INFO 12416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-25 23:03:58.885  INFO 12416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-25 23:03:58.898  INFO 12416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-25 23:03:59.168  INFO 12416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-25 23:03:59.174  INFO 12416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25 23:03:59.174  INFO 12416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-25 23:03:59.270  INFO 12416 --- [main] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring embedded WebApplicationContext
+2023-04-25 23:03:59.270  INFO 12416 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 746 ms
+2023-04-25 23:03:59.680  INFO 12416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ofs-api'
+2023-04-25 23:03:59.686  INFO 12416 --- [main] c.javaee.onlineapi.DemoTestApplication   : Started DemoTestApplication in 1.453 seconds (JVM running for 2.207)
+2023-04-25 23:04:03.837  INFO 12416 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-25 23:04:03.838  INFO 12416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-25 23:04:03.839  INFO 12416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-25 23:07:56.227  INFO 21772 --- [main] c.javaee.onlineapi.DemoTestApplication   : Starting DemoTestApplication using Java 1.8.0_341 on zchhhhh with PID 21772 (C:\Users\20698\Desktop\test\demo-test\target\classes started by 20698 in C:\Users\20698\Desktop\test\demo-test)
+2023-04-25 23:07:56.229  INFO 21772 --- [main] c.javaee.onlineapi.DemoTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-25 23:07:56.611  INFO 21772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-25 23:07:56.612  INFO 21772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-25 23:07:56.626  INFO 21772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-25 23:07:56.904  INFO 21772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-25 23:07:56.909  INFO 21772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25 23:07:56.909  INFO 21772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-25 23:07:57.004  INFO 21772 --- [main] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring embedded WebApplicationContext
+2023-04-25 23:07:57.005  INFO 21772 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 750 ms
+2023-04-25 23:07:57.563  INFO 21772 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@52bf7bf6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@261db982, org.springframework.security.web.context.SecurityContextPersistenceFilter@30c4e352, org.springframework.security.web.header.HeaderWriterFilter@3c91530d, org.springframework.security.web.csrf.CsrfFilter@4d6ccc97, org.springframework.security.web.authentication.logout.LogoutFilter@35c9a231, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7523a3dc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@71f1cc02, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@ae73c80, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f3b992, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73809e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@48df4071, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22f4f8f2, org.springframework.security.web.session.SessionManagementFilter@732f6050, org.springframework.security.web.access.ExceptionTranslationFilter@17ba57f0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@727320fa]
+2023-04-25 23:07:57.607  INFO 21772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ofs-api'
+2023-04-25 23:07:57.616  INFO 21772 --- [main] c.javaee.onlineapi.DemoTestApplication   : Started DemoTestApplication in 1.657 seconds (JVM running for 2.524)
+2023-04-25 23:08:01.800  INFO 21772 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ofs-api]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-25 23:08:01.800  INFO 21772 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-25 23:08:01.801  INFO 21772 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
