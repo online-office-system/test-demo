@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /ofs-api
+
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+  security:
+    user:
+      name: root
+      password: 123456
+
