@@ -15,4 +15,7 @@ spring:
     user:
       name: root
       password: 123456
-
+logging:
+  file:
+    name: info.created_on_%d{yyyy-MM-dd}.part_%i.log
+    path: logs/demo-logback/info.created_on_%d{yyyy-MM-dd}.part_%i.log
