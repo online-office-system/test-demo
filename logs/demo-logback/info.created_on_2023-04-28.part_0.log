@@ -1,0 +1,24 @@
+2023-04-28 11:15:16.221  INFO 5732 --- [main] cdu.zch.ChatTestApplication              : Starting ChatTestApplication using Java 1.8.0_341 on zchhhhh with PID 5732 (C:\Users\20698\Desktop\test\chat-test\target\classes started by 20698 in C:\Users\20698\Desktop\test)
+2023-04-28 11:15:16.223  INFO 5732 --- [main] cdu.zch.ChatTestApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-04-28 11:15:16.688  INFO 5732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'serverConfig' of type [cdu.zch.config.ServerConfig$$EnhancerBySpringCGLIB$$a110aa6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-28 11:15:16.702  INFO 5732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'ws.server-cdu.zch.config.WsConfig' of type [cdu.zch.config.WsConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-28 11:15:16.748  INFO 5732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'server' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-28 11:15:16.884  INFO 5732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28 11:15:16.890  INFO 5732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28 11:15:16.890  INFO 5732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-28 11:15:16.996  INFO 5732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2023-04-28 11:15:16.996  INFO 5732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 747 ms
+2023-04-28 11:15:17.030  INFO 5732 --- [main] c.c.s.a.SpringAnnotationScanner          : messageEventHandler bean listeners added
+2023-04-28 11:15:17.136  INFO 5732 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-04-28 11:15:17.248  INFO 5732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/demo'
+2023-04-28 11:15:17.254  INFO 5732 --- [main] cdu.zch.ChatTestApplication              : Started ChatTestApplication in 1.395 seconds (JVM running for 2.149)
+2023-04-28 11:15:17.255  INFO 5732 --- [main] c.c.socketio.SocketIOServer              : Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2023-04-28 11:15:17.601  INFO 5732 --- [nioEventLoopGroup-2-1] c.c.socketio.SocketIOServer              : SocketIO server started at port: 8081
+2023-04-28 11:15:17.601  INFO 5732 --- [main] cdu.zch.init.ServerRunner                : websocket 服务启动！！！
+2023-04-28 11:15:46.217  INFO 5732 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28 11:15:46.217  INFO 5732 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28 11:15:46.218  INFO 5732 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-28 11:15:46.507  INFO 5732 --- [nioEventLoopGroup-3-1] cdu.zch.handler.MessageEventHandler      : 连接成功，[token] = user854, [sessionId] = 90d6e3a2-a88f-4464-b116-1db7b4fc1a12
+2023-04-28 11:17:48.566  INFO 5732 --- [nioEventLoopGroup-3-2] cdu.zch.handler.MessageEventHandler      : 用户：user854 已加入群聊：666
+2023-04-28 11:17:50.842  INFO 5732 --- [nioEventLoopGroup-3-2] cdu.zch.handler.MessageEventHandler      : 群号 666 收到来自 user854 的群聊消息：134123
+2023-04-28 11:17:54.190  INFO 5732 --- [nioEventLoopGroup-3-2] cdu.zch.handler.MessageEventHandler      : 群号 666 收到来自 user854 的群聊消息：撒法发
