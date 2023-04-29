@@ -89,7 +89,7 @@ public class MessageEventHandler {
     }
 
     @OnEvent(value = Event.GROUP)
-    public void OnGroupEvent(SocketIOClient client, AckRequest request, GroupMessageRequest data) {
+    public void onGroupEvent(SocketIOClient client, AckRequest request, GroupMessageRequest data) {
         Collection<SocketIOClient> clients = server.getRoomOperations(data.getGroupId()).getClients();
 
         boolean inGroup = false;

@@ -7,3 +7,16 @@ ws:
   server:
     port: 8081
     host: 127.0.0.1
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+logging:
+  file:
+    name: info.created_on_%d{yyyy-MM-dd}.part_%i.log
+    path: logs/demo-logback/info.created_on_%d{yyyy-MM-dd}.part_%i.log
+
